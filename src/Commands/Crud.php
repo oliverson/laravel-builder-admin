@@ -7,19 +7,19 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin\Commands;
+namespace Dwij\Laraadmin\Commands;
 
 use Config;
 use Artisan;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use oliverson\laravel-admin\Models\Module;
-use oliverson\laravel-admin\CodeGenerator;
+use Dwij\Laraadmin\Models\Module;
+use Dwij\Laraadmin\CodeGenerator;
 
 /**
  * Class Crud
- * @package oliverson\laravel-admin\Commands
+ * @package Dwij\Laraadmin\Commands
  *
  * Command that generates CRUD's for a Module. Takes Module name as input.
  */

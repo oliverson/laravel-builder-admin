@@ -7,18 +7,18 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin\Commands;
+namespace Dwij\Laraadmin\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use oliverson\laravel-admin\Helpers\LAHelper;
+use Dwij\Laraadmin\Helpers\LAHelper;
 use Eloquent;
 use DB;
 
 /**
  * Class LAInstall
- * @package oliverson\laravel-admin\Commands
+ * @package Dwij\Laraadmin\Commands
  *
  * Command to install LaraAdmin package into project which moves lot of file from 'src/Installs' directory to Project
  */

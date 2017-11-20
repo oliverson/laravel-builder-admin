@@ -9,7 +9,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use oliverson\laravel-admin\Models\Module;
+use Dwij\Laraadmin\Models\Module;
 
 class __migration_class_name__ extends Migration
 {

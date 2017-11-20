@@ -37,7 +37,7 @@
             <!-- Optionally, you can add icons to the links -->
             <li><a href="{{ url(config('laraadmin.adminRoute')) }}"><i class='fa fa-home'></i> <span>Dashboard</span></a></li>
             <?php
-            $menuItems = oliverson\laravel-admin\Models\Menu::where("parent", 0)->orderBy('hierarchy', 'asc')->get();
+            $menuItems = Dwij\Laraadmin\Models\Menu::where("parent", 0)->orderBy('hierarchy', 'asc')->get();
             ?>
             @foreach ($menuItems as $menu)
                 @if($menu->type == "module")

@@ -9,7 +9,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use oliverson\laravel-admin\Models\Module;
+use Dwij\Laraadmin\Models\Module;
 
 class CreateEmployeesTable extends Migration
 {

@@ -1,7 +1,7 @@
 @extends("la.layouts.app")
 
 <?php
-use oliverson\laravel-admin\Models\Module;
+use Dwij\Laraadmin\Models\Module;
 ?>
 
 @section("contentheader_title", "Modules")

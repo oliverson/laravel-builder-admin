@@ -7,7 +7,7 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin\Controllers;
+namespace Dwij\Laraadmin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -15,15 +15,15 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
 
-use oliverson\laravel-admin\Models\Menu;
-use oliverson\laravel-admin\Models\Module;
-use oliverson\laravel-admin\Models\ModuleFields;
-use oliverson\laravel-admin\Models\ModuleFieldTypes;
-use oliverson\laravel-admin\Helpers\LAHelper;
+use Dwij\Laraadmin\Models\Menu;
+use Dwij\Laraadmin\Models\Module;
+use Dwij\Laraadmin\Models\ModuleFields;
+use Dwij\Laraadmin\Models\ModuleFieldTypes;
+use Dwij\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class MenuController
- * @package oliverson\laravel-admin\Controllers
+ * @package Dwij\Laraadmin\Controllers
  *
  * Works after managing Menus and their hierarchy
  */

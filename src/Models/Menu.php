@@ -7,16 +7,16 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin\Models;
+namespace Dwij\Laraadmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use oliverson\laravel-admin\Helpers\LAHelper;
+use Dwij\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class Menu
- * @package oliverson\laravel-admin\Models
+ * @package Dwij\Laraadmin\Models
  *
  * Menu Model which looks after Menus in Sidebar and Navbar
  */

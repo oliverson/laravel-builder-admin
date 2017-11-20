@@ -7,18 +7,18 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin;
+namespace Dwij\Laraadmin;
 
 use Artisan;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
-use oliverson\laravel-admin\Helpers\LAHelper;
+use Dwij\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class LAProvider
- * @package oliverson\laravel-admin
+ * @package Dwij\Laraadmin
  *
  * This is LaraAdmin Service Provider which looks after managing aliases, other required providers, blade directives
  * and Commands.
@@ -44,7 +44,7 @@ class LAProvider extends ServiceProvider
         //echo "Laraadmin Migrations started...";
         // Artisan::call('migrate', ['--path' => "vendor/dwij/laraadmin/src/Migrations/"]);
         //echo "Migrations completed !!!.";
-        // Execute by php artisan vendor:publish --provider="oliverson\laravel-admin\LAProvider"
+        // Execute by php artisan vendor:publish --provider="Dwij\Laraadmin\LAProvider"
         
         /*
         |--------------------------------------------------------------------------
@@ -118,19 +118,19 @@ class LAProvider extends ServiceProvider
         $loader->alias('Gravatar', \Creativeorange\Gravatar\Facades\Gravatar::class);
         
         // For LaraAdmin Code Generation
-        $loader->alias('CodeGenerator', \oliverson\laravel-admin\CodeGenerator::class);
+        $loader->alias('CodeGenerator', \Dwij\Laraadmin\CodeGenerator::class);
         
         // For LaraAdmin Form Helper
-        $loader->alias('LAFormMaker', \oliverson\laravel-admin\LAFormMaker::class);
+        $loader->alias('LAFormMaker', \Dwij\Laraadmin\LAFormMaker::class);
         
         // For LaraAdmin Helper
-        $loader->alias('LAHelper', \oliverson\laravel-admin\Helpers\LAHelper::class);
+        $loader->alias('LAHelper', \Dwij\Laraadmin\Helpers\LAHelper::class);
         
         // LaraAdmin Module Model 
-        $loader->alias('Module', \oliverson\laravel-admin\Models\Module::class);
+        $loader->alias('Module', \Dwij\Laraadmin\Models\Module::class);
         
         // For LaraAdmin Configuration Model
-        $loader->alias('LAConfigs', \oliverson\laravel-admin\Models\LAConfigs::class);
+        $loader->alias('LAConfigs', \Dwij\Laraadmin\Models\LAConfigs::class);
         
         // For Entrust
         $loader->alias('Entrust', \Zizaco\Entrust\EntrustFacade::class);
@@ -144,9 +144,9 @@ class LAProvider extends ServiceProvider
         |--------------------------------------------------------------------------
         */
         
-        $this->app->make('oliverson\laravel-admin\Controllers\ModuleController');
-        $this->app->make('oliverson\laravel-admin\Controllers\FieldController');
-        $this->app->make('oliverson\laravel-admin\Controllers\MenuController');
+        $this->app->make('Dwij\Laraadmin\Controllers\ModuleController');
+        $this->app->make('Dwij\Laraadmin\Controllers\FieldController');
+        $this->app->make('Dwij\Laraadmin\Controllers\MenuController');
         
         // For LAEditor
         if(file_exists(__DIR__ . '/../../laeditor')) {
@@ -212,10 +212,10 @@ class LAProvider extends ServiceProvider
         */
         
         $commands = [
-            \oliverson\laravel-admin\Commands\Migration::class,
-            \oliverson\laravel-admin\Commands\Crud::class,
-            \oliverson\laravel-admin\Commands\Packaging::class,
-            \oliverson\laravel-admin\Commands\LAInstall::class
+            \Dwij\Laraadmin\Commands\Migration::class,
+            \Dwij\Laraadmin\Commands\Crud::class,
+            \Dwij\Laraadmin\Commands\Packaging::class,
+            \Dwij\Laraadmin\Commands\LAInstall::class
         ];
         
         // For LAEditor

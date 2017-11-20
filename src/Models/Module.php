@@ -7,7 +7,7 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace oliverson\laravel-admin\Models;
+namespace Dwij\Laraadmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
@@ -15,11 +15,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Exception;
 use Log;
 use DB;
-use oliverson\laravel-admin\Helpers\LAHelper;
+use Dwij\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class Module
- * @package oliverson\laravel-admin\Models
+ * @package Dwij\Laraadmin\Models
  *
  * Most important Model of LaraAdmin which looks after Module, ModuleField Generation.
  * It also handles Module migrations via "generate" method to create Module Schema in Database.

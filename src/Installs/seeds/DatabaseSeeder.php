@@ -9,11 +9,11 @@
 
 use Illuminate\Database\Seeder;
 
-use oliverson\laravel-admin\Models\Module;
-use oliverson\laravel-admin\Models\ModuleFields;
-use oliverson\laravel-admin\Models\ModuleFieldTypes;
-use oliverson\laravel-admin\Models\Menu;
-use oliverson\laravel-admin\Models\LAConfigs;
+use Dwij\Laraadmin\Models\Module;
+use Dwij\Laraadmin\Models\ModuleFields;
+use Dwij\Laraadmin\Models\ModuleFieldTypes;
+use Dwij\Laraadmin\Models\Menu;
+use Dwij\Laraadmin\Models\LAConfigs;
 
 use App\Role;
 use App\Permission;

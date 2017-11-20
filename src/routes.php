@@ -1,16 +1,16 @@
 <?php
 
 $as = "";
-if(\Dwij\Laraadmin\Helpers\LAHelper::laravel_ver() == 5.3) {
+if(\oliverson\laravel-admin\Helpers\LAHelper::laravel_ver() == 5.3) {
     $as = config('laraadmin.adminRoute') . '.';
 }
 
 /**
- * Connect routes with ADMIN_PANEL permission(for security) and 'Dwij\Laraadmin\Controllers' namespace
+ * Connect routes with ADMIN_PANEL permission(for security) and 'oliverson\laravel-admin\Controllers' namespace
  * and '/admin' url.
  */
 Route::group([
-    'namespace' => 'Dwij\Laraadmin\Controllers',
+    'namespace' => 'oliverson\laravel-admin\Controllers',
     'as' => $as,
     'middleware' => ['web', 'auth', 'permission:ADMIN_PANEL', 'role:SUPER_ADMIN']
 ], function () {

@@ -11,7 +11,7 @@ namespace App\Http\Controllers\LA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Dwij\Laraadmin\Models\LAConfigs;
+use oliverson\laravel-admin\Models\LAConfigs;
 
 class LAConfigController extends Controller
 {

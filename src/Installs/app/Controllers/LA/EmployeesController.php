@@ -17,10 +17,10 @@ use DB;
 use Validator;
 use Datatables;
 use Collective\Html\FormFacade as Form;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\LAConfigs;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFields;
+use oliverson\laravel-admin\Models\LAConfigs;
+use oliverson\laravel-admin\Helpers\LAHelper;
 
 use App\User;
 use App\Models\Employee;

@@ -7,15 +7,15 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Commands;
+namespace oliverson\laravel-admin\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use oliverson\laravel-admin\Helpers\LAHelper;
 
 /**
  * Class Packaging
- * @package Dwij\Laraadmin\Commands
+ * @package oliverson\laravel-admin\Commands
  *
  * Command to put latest development and changes of project into LaraAdmin package.
  * [For LaraAdmin Developer's Only]

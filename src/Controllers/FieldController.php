@@ -7,7 +7,7 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Controllers;
+namespace oliverson\laravel-admin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -15,14 +15,14 @@ use App\Http\Requests;
 use DB;
 use Schema;
 
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFields;
+use oliverson\laravel-admin\Models\ModuleFieldTypes;
+use oliverson\laravel-admin\Helpers\LAHelper;
 
 /**
  * Class FieldController
- * @package Dwij\Laraadmin\Controllers
+ * @package oliverson\laravel-admin\Controllers
  *
  * Controller looks after
  */

@@ -9,7 +9,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Dwij\Laraadmin\Models\Module;
+use oliverson\laravel-admin\Models\Module;
 
 class CreateUploadsTable extends Migration
 {

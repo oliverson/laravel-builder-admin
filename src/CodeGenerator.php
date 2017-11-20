@@ -7,18 +7,18 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin;
+namespace oliverson\laravel-admin;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\Helpers\LAHelper;
-use Dwij\Laraadmin\Models\Menu;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFieldTypes;
+use oliverson\laravel-admin\Helpers\LAHelper;
+use oliverson\laravel-admin\Models\Menu;
 
 /**
  * Class CodeGenerator
- * @package Dwij\Laraadmin
+ * @package oliverson\laravel-admin
  *
  * This class performs the Code Generation for Controller, Model, CRUDs Views, Routes, Menu and Migrations.
  * This also generates the naming config which contains names for controllers, tables and everything required
@@ -168,7 +168,7 @@ class CodeGenerator
         $templateDirectory = __DIR__ . '/stubs';
         
         LAHelper::log("info", "Appending routes...", $comm);
-        if(\Dwij\Laraadmin\Helpers\LAHelper::laravel_ver() == 5.3) {
+        if(\oliverson\laravel-admin\Helpers\LAHelper::laravel_ver() == 5.3) {
             $routesFile = base_path('routes/admin_routes.php');
         } else {
             $routesFile = app_path('Http/admin_routes.php');

@@ -3,8 +3,8 @@
 @section('htmlheader_title', 'Module View')
 
 <?php
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFields;
 ?>
 
 @section('main-content')

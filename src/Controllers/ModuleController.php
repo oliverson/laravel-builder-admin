@@ -7,24 +7,24 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Controllers;
+namespace oliverson\laravel-admin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
-use Dwij\Laraadmin\Helpers\LAHelper;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\CodeGenerator;
+use oliverson\laravel-admin\Helpers\LAHelper;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFields;
+use oliverson\laravel-admin\Models\ModuleFieldTypes;
+use oliverson\laravel-admin\CodeGenerator;
 use App\Role;
 use Schema;
-use Dwij\Laraadmin\Models\Menu;
+use oliverson\laravel-admin\Models\Menu;
 
 /**
  * Class ModuleController
- * @package Dwij\Laraadmin\Controllers
+ * @package oliverson\laravel-admin\Controllers
  *
  */
 class ModuleController extends Controller

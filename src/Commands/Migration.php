@@ -7,15 +7,15 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Commands;
+namespace oliverson\laravel-admin\Commands;
 
 use Illuminate\Console\Command;
 
-use Dwij\Laraadmin\CodeGenerator;
+use oliverson\laravel-admin\CodeGenerator;
 
 /**
  * Class Migration
- * @package Dwij\Laraadmin\Commands
+ * @package oliverson\laravel-admin\Commands
  *
  * Command to generation new sample migration file or complete migration file from DB Context
  * if '--generate' parameter is used after command, it generate migration from database.

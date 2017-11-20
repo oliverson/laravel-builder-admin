@@ -10,7 +10,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
+use oliverson\laravel-admin\Models\ModuleFieldTypes;
 
 class CreateModuleFieldTypesTable extends Migration
 {

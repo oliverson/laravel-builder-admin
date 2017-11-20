@@ -7,16 +7,16 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin;
+namespace oliverson\laravel-admin;
 
 use Schema;
 use Collective\Html\FormFacade as Form;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
+use oliverson\laravel-admin\Models\Module;
+use oliverson\laravel-admin\Models\ModuleFieldTypes;
 
 /**
  * Class LAFormMaker
- * @package Dwij\Laraadmin
+ * @package oliverson\laravel-admin
  *
  * This class is blade directive implementation for Form Elements in Module as well as other utilities
  * for Access Control. It also has method process_values which processes fields data from its context.

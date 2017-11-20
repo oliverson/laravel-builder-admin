@@ -7,18 +7,18 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Models;
+namespace oliverson\laravel-admin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Schema;
 use Log;
 use DB;
 
-use Dwij\Laraadmin\Models\Module;
+use oliverson\laravel-admin\Models\Module;
 
 /**
  * Class ModuleFields
- * @package Dwij\Laraadmin\Models
+ * @package oliverson\laravel-admin\Models
  *
  * Module Fields Model which works for create / update of fields via "Module Manager"
  * This uses "Module::create_field_schema" method to actually create database schema

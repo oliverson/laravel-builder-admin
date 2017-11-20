@@ -7,7 +7,7 @@
  * Developer Website: http://dwijitsolutions.com
  */
 
-namespace Dwij\Laraadmin\Models;
+namespace oliverson\laravel-admin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
@@ -15,11 +15,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Exception;
 use Log;
 use DB;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use oliverson\laravel-admin\Helpers\LAHelper;
 
 /**
  * Class LAConfigs
- * @package Dwij\Laraadmin\Models
+ * @package oliverson\laravel-admin\Models
  *
  * Config Class looks after LaraAdmin configurations.
  * Check details on http://laraadmin.com/docs
